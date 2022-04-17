@@ -1,2 +1,2 @@
-# intro_CS
+# intro_cs
 Intro to CS coursework.
