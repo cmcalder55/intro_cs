@@ -1,7 +1,7 @@
 
 import turtle  # Needed for graphics
 
-# Ignore 'Undefined variable from import' errors in Eclipse.
+# if using Eclipse ignore 'Undefined variable from import' errors.
 
 def sv_tree(trunk_length, levels):
     
