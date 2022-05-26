@@ -25,7 +25,8 @@ def take(n, L):
         return []
     return[L[0]] + take(n-1, L[1:])
 
-#test: take(4,[1,2,3,4,5,6,7,8,9])
+#test: 
+print(take(4,[1,2,3,4,5,6,7,8,9]))
 '''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
 ' PROBLEM 3
 ' Similar to problem 2, will implement another function
@@ -41,4 +42,5 @@ def drop(n, L):
         return []
     return drop(n-1, L[1:])
 
-#test: drop(4,[1,2,3,4,5,6,7,8,9])
+#test: 
+print(drop(4,[1,2,3,4,5,6,7,8,9]))
